@@ -5,3 +5,7 @@ include ':app'
 // If you don't use autolink, uncomment the 2 below
 // include ':react-native-push-notification'
 // project(':react-native-push-notification').projectDir = file('../node_modules/react-native-push-notification/android')
+
+// If you don't use autolink, uncomment the 2 below
+// include ':ihealthlibrary-react-native'
+// project(':ihealthlibrary-react-native').projectDir = new File(rootProject.projectDir,'../node_modules/@ihealth/ihealthlibrary-react-native/android')

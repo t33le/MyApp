@@ -213,6 +213,10 @@ dependencies {
 
     // If you don't use autolink, uncomment the 1 below
     // implementation project(':react-native-push-notification')
+
+    // If you don't use autolink, uncomment the 1 below
+    // implementation project(':@ihealth_ihealthlibrary-react-native')
+
 }
 
 // Run this once to be able to run the application with BUCK
@@ -221,5 +225,6 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
+
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

@@ -155,7 +155,7 @@ buck-out/
 # https://docs.fastlane.tools/best-practices/source-control/
 
 */fastlane/report.xml
-*/fastlane/Preview.html
+*/fastlane/Preview.htmlc
 */fastlane/screenshots
 
 # Bundle artifact
