@@ -1,9 +1,10 @@
-# clean up Pods cache
-pwd
-rm -rf ~/Library/Caches/CocoaPods
-rm -rf ~/Library/Developer/Xcode/DerivedData/*
+# happen when using cocoapods for different project
 
-# clean and re-install pod
+# clean up Pods cache
+rm -rf ~/Library/Caches/CocoaPods
+echo y | rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+# clean and re-install pods
 cd ios
 rm -rf Pods
 pod deintegrate
