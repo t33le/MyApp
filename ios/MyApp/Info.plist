@@ -35,8 +35,24 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Allow this app to use bluetooth to connect iHealth devices</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>Allow this app to use bluetooth accessories</string>
+  <key>NSCameraUsageDescription</key>
+  <string>This lets you take photos and scan QR codes</string>
+  <!-- <key>NSContactsUsageDescription</key>
+  <string>Unified Care will add care team contact number to your address book to better help you manage your health conditions.</string> -->
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Allow to use location for better Bluetooth connection</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>Allow to use location for better Bluetooth connection</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Allow to use location for better Bluetooth connection</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>This app requires microphone access to communicate with iHealth Align (BG1) Glucometer, which is plugged into the headphone/microphone jack.</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Allow this app to access photo library</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
