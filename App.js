@@ -11,9 +11,9 @@ import { ActivityIndicator, StatusBar, useColorScheme, View, Text } from 'react-
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { store, persistor } from './redux';
+// import { store, persistor } from './redux';
 
-import PNHelpers from './PushNotification';
+// import PNHelpers from './PushNotification';
 
 import { createAppContainer } from 'react-navigation';
 import MainNavigator from './screens/navigators';

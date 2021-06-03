@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-  <string>Allow this app to use bluetooth to connect iHealth devices</string>
+  <string>Allow this app to use bluetooth to connect devices</string>
   <key>NSBluetoothPeripheralUsageDescription</key>
   <string>Allow this app to use bluetooth accessories</string>
   <key>NSCameraUsageDescription</key>
@@ -50,7 +50,7 @@
   <key>NSLocationWhenInUseUsageDescription</key>
   <string>Allow to use location for better Bluetooth connection</string>
   <key>NSMicrophoneUsageDescription</key>
-  <string>This app requires microphone access to communicate with iHealth Align (BG1) Glucometer, which is plugged into the headphone/microphone jack.</string>
+  <string>This app requires microphone access to communicate with BG1, which is plugged into the headphone/microphone jack.</string>
   <key>NSPhotoLibraryUsageDescription</key>
   <string>Allow this app to access photo library</string>
 	<key>UIBackgroundModes</key>
