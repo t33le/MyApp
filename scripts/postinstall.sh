@@ -1,11 +1,12 @@
 # #!/bin/zsh
 
-rm -rf ~/Library/Caches/CocoaPods
-echo y | rm -rf ~/Library/Developer/Xcode/DerivedData/*
+setopt localoptions rmstarsilent
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
 
 cd ios
 rm -rf Pods
 rm Podfile.lock
+rm -rf ~/Library/Caches/CocoaPods
 
 arch_name="$(uname -m)"
  
@@ -24,5 +25,3 @@ elif [ "${arch_name}" = "arm64" ]; then
 else
   echo "Unknown architecture: ${arch_name}"
 fi
-
-npm install --save @ihealth/ihealthlibrary-react-native

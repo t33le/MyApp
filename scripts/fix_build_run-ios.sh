@@ -2,7 +2,7 @@
 
 # clean up Pods cache
 rm -rf ~/Library/Caches/CocoaPods
-echo y | rm -rf ~/Library/Developer/Xcode/DerivedData/*
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
 
 # clean and re-install pods
 cd ios

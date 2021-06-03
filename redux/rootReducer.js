@@ -1,7 +1,22 @@
-import { combineReducers } from 'redux';
+import { persistReducer } from 'redux-persist';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export default combineReducers({
+import { combineReducers } from 'redux';
+import globalReducers from './reducers';
+import commonReducers from '../modules/commons/redux/reducers';
+
+const persistConfig = {
+  key: 'myapp_root',
+  storage: AsyncStorage,
+  whitelist: []
+};
+
+const rootReducer = combineReducers({
   todo: (state = { test: true }, action) => {
-    return {...state};
-  }
+    return state;
+  },
+  globalReducers,
+  commonReducers
 });
+
+export default persistReducer(persistConfig, rootReducer);
